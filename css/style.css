@@ -19,6 +19,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 100%;
   background: #FFf;
+
   
 }
 .particlesBackground {
@@ -114,6 +115,9 @@ h6 {
 
 .navigation-right {
   float: right;
+}
+.navigation-right.left{
+  float: left;
 }
 
 .navigation-right ul li {
@@ -253,7 +257,9 @@ ul.address {
   border-width: 14px 11px 0 12px;
   border-color: #0288D1 transparent transparent transparent;
 }
-
+.about{
+  height:100vh;
+}
 .header-right h6 {
   font-size: 1em;
   color: #C7C7C7;
@@ -630,7 +636,7 @@ span.border.one:after {
   float: left;
   padding: 0;
   background: no-repeat 0px 0px;
-  background-color: black;
+  
   min-height: 580px;
   background-size: cover;
   -o-background-size: cover;
