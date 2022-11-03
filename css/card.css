@@ -10,7 +10,8 @@
 
 .containercard {
 	perspective: 1000;
-	float:left;}
+	float:left;
+	margin-right: 3.5px;}
 .containercard.permaover{
     display: block;
 }
@@ -46,6 +47,7 @@
 .front img {
 	width:200px;
 	height:308px;
+	object-fit: cover;
 }
 
 .back {
@@ -62,11 +64,11 @@
 
 .title	{	font-family:'Titillium Web', Arial, Helvetica, sans-serif;
 		font-weight:900;
-		font-size:30px;}
+		font-size:24px;}
 		
-.para	{	font-family:'Roboto Condensed', Arial, Helvetica, sans-serif;
+.para	{	font-family:'Titillium', Arial, Helvetica, sans-serif;
 		font-weight:300;
-		font-size:14px;
+		font-size:16px;
 		line-height:20px;}
 .skillers{ font-family:'Titillium Web', Arial, Helvetica, sans-serif;
     font-weight:500;

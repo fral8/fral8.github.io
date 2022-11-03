@@ -177,7 +177,7 @@ span.menu {
 
 .banner-info {
   background: rgba(23, 20, 20, 0.58);
-  margin-top: 20%;
+  margin-top: 15%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   
 }
@@ -565,6 +565,7 @@ span.border.one:after {
 .about-left-grid h3 {
   font-size: 2.5em;
   color: #FFF;
+
 }
 
 .about-left-grid {
@@ -607,6 +608,7 @@ span.border.one:after {
   padding: 4.5em 0 4.7em 0;
   float: right;
   background: #f4f4f4;
+  max-height: 380px;
 }
 
 .about-left-grid ul li a {
@@ -1310,7 +1312,8 @@ div#portfolioModal10 {
   top: 25px;
   right: 25px;
   width: 45px;
-  height: 45px background-color: transparent;
+  height: 45px;
+   background-color: transparent;
   cursor: pointer;
   z-index: 1;
 }
@@ -2474,3 +2477,8 @@ svg:not(:root) {
     padding-right: 15px;
   }
 }
+
+.tag{
+  border-radius: 25px;
+  width: fit-content;
+  margin: top 3em}
