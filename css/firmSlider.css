@@ -1,9 +1,15 @@
 
   
   .firmImg {
-    width: 200px;
-
+    height: 300px;
+    width: 300px;;
+    object-fit: cover;
     animation: scroll 60s linear infinite;
+  }
+  .firmText
+  {
+    animation: scroll 60s linear infinite;
+
   }
   
   .slide-track {
