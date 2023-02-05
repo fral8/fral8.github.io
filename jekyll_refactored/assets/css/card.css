@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+
+
+
+#wrapper
+	{	width:100vh;
+		margin: 5vh  auto;
+        }
+
+.containercard {
+	perspective: 1000;
+	float:left;
+	margin-right: 3.5px;}
+.containercard.permaover{
+    display: block;
+}
+
+.containercard:hover .network, .containercard.hover .network {
+		-webkit-transform: rotateY(180deg);}
+	
+
+.containercard, .front, .back {
+	
+	width: 200px;
+	height: 308px;
+	text-align: center;}
+
+
+.network {
+	transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+  position: relative;}
+
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+  
+	
+}
+
+.front {
+	z-index: 2;
+	background: #1273a7;}
+
+.front img {
+	width:200px;
+	height:308px;
+	object-fit: cover;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	background: #fff;
+	padding:30px;
+
+  box-shadow: inset 0 0 0 10px rgba(255,255,255,1),
+              inset 0 0 0 11px rgba(0,0,0,.125);
+	
+	
+  
+}
+
+.title	{	font-family:'Titillium Web', Arial, Helvetica, sans-serif;
+		font-weight:900;
+		font-size:24px;}
+		
+.para	{	font-family:'Titillium', Arial, Helvetica, sans-serif;
+		font-weight:300;
+		font-size:16px;
+		line-height:20px;}
+.skillers{ font-family:'Titillium Web', Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size:20px;}
+
+
