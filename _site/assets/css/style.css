@@ -2508,3 +2508,7 @@ svg:not(:root) {
   flex: 0 0 auto;
   margin: 20px;
 }
+.background_prj{
+  background: rgb(246,246,247);
+  background: linear-gradient(90deg, rgba(246,246,247,1) 0%, rgba(244,245,246,1) 79%, rgba(22,80,171,0.773546918767507) 100%);
+} 
