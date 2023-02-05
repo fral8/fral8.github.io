@@ -7,6 +7,10 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
       isMobile = true;
       document.getElementById("years").style.display='none';
       document.getElementById("deskphoto").style.display="none";
+      document.getElementById("projects").style.display="none";   
+      document.getElementById("publications").style.display="none";
+      document.getElementById("recprj").style.display="none";
+      document.getElementById("about").style.display="none";
       console.log("mobile phone detected status:"+check);
 }
 else{
